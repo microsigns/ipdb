@@ -1,0 +1,12 @@
+Source: python-ipdb
+Section: python
+Priority: optional
+Maintainer: Godefroid Chapelle <gotcha@bubblenet.be>
+Homepage: git://github.com/gotcha/ipdb.git
+Build-Depends: debhelper, python-support, python-setuptools
+
+Package: python-ipdb
+Architecture: all
+Depends: ${python:Depends}, ipython
+Provides: ${python:Provides}
+Description: Integration of IPython pdb
